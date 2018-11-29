@@ -1,0 +1,8 @@
+<h1>Add a new cd to @Model.GetName()</h1>
+
+<form action='/categories/@Model.GetId()/cd' method='post'>
+  <input id='categoryId' name='categoryId' type='hidden' value='@Model.GetId()'>
+  <label for='cdName'>CD title</label>
+  <input id='cdName' name='cdName' type='text'>
+  <button type='submit'>Add item</button>
+</form>
